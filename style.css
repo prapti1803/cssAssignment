@@ -1,0 +1,65 @@
+.head-section{
+    background-color: rgb(18, 95, 133);
+}
+.head-line{
+font-size: 40px;
+color: whitesmoke;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: left;
+font-style: italic;
+}
+.head-nav{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    text-align: right;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+.head-nav> a{
+color:wheat;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.aside{
+    background-color: rgb(39, 140, 190);
+    position: absolute;
+    top:4rem;
+    right:1rem;
+    height: 55rem;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem ;
+    width: 20rem;
+    text-align: justify;
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cards-section{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.cards-section > .card{
+    border:  solid  black; 
+    margin:2rem;
+    width: 20rem;
+    height:10rem;
+    
+}
+.cards-section > .card > h2{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media (max-width: 1400px) {
+    .cards-section {
+      flex-direction: column;
+    }
+  }
+
+
